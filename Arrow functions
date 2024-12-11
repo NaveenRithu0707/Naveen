@@ -1,0 +1,37 @@
+
+//basic
+
+let a = () => {
+    console.log("basic");
+}
+a();
+
+//without parameter
+
+let b = () => {
+    console.log("without parameter");
+}
+b();
+
+//with single parameter
+
+let c = para => {
+    console.log(para);
+}
+c("with single parameter")
+
+//multi parameter
+
+let d = (num1,num2) => {
+    console.log(num1+num2);
+}
+d(20,30)
+
+//implicit function
+
+let e = car => 
+    console.log(car);
+
+e("BWM")
+
+
